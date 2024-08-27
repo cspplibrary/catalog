@@ -12,4 +12,4 @@ format:
     link-external-newwindow: true
 ---
 
-[![](images/CSPPBookplate copy.png){width="508"}](https://www.instagram.com/p/C_D98VZSm48)
+[![](images/CSPPBookplate.png){width="539"}](https://www.instagram.com/p/C_D98VZSm48)

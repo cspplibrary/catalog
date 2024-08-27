@@ -3,10 +3,10 @@ project:
 
 website:
   title: "CSPP LIBRARY"
-  favicon: images/CSPPBookplatePink.png
+  favicon: images/favicon-logo.png
   back-to-top-navigation: true
   navbar:
-    logo: images/CSPPBookplatePink.png
+    logo: images/favicon-logo.png
     pinned: true
     left:
       - href: index.qmd
