@@ -1,11 +1,15 @@
 ---
-title: "catalog"
+title: " WELCOME TO THE CSPP LIBRARY"
+execute:
+  message: false
+  error: false
+  warning: false
+  echo: false
+format: 
+  html:
+    toc: false
+    # link-external-icon: true
+    link-external-newwindow: true
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+[![](images/CSPPBookplate copy.png){width="508"}](https://www.instagram.com/p/C_D98VZSm48)
