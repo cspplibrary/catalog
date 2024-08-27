@@ -26,3 +26,31 @@ library(gt)
 library(gtExtras)
 
 ```
+
+
+```{r}
+
+# drive_auth(path = ".secret/cspp-client-secret.json")
+# gs4_auth(path = ".secret/cspp-client-secret.json")
+
+drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
+
+gs4_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
+
+ss1 <- drive_get(id = Sys.getenv("GOOGLE_SHEET_ID") 
+)
+
+physical_collection <-  read_sheet(ss1,
+                                   sheet = "Physical Collection",
+                                   skip = 1) %>% 
+    janitor::clean_names() 
+
+```
+
+```{r}
+
+physical_collection %>% 
+  dplyr::select(title, author_last_name_first_name, genre, sub_genres, language) %>% 
+  head(n = 10)
+```
+
