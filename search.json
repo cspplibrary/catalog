@@ -4,7 +4,7 @@
     "href": "inventory.html",
     "title": "CSPP Library Inventory",
     "section": "",
-    "text": "Back to top"
+    "text": "# A tibble: 10 × 5\n   title                   author_last_name_first_name genre sub_genres language\n   &lt;chr&gt;                   &lt;chr&gt;                       &lt;chr&gt; &lt;chr&gt;      &lt;chr&gt;   \n 1 Wild Thorns             Khalifeh, Sahar             Novel Palestini… English \n 2 The Beauty of Your Face Mustafah, Sahar             Novel Coming-of… English \n 3 Rise The Euphrates      Edgarian, Carol             Novel Armenian,… English \n 4 When We Were Sisters    Asghar, Fatimah             Novel Coming-of… English \n 5 Ida In The Middle       Murad, Nora Lester          Novel Magical R… English \n 6 Exit West               Hamid, Mohsin               Novel Romance, … English \n 7 The Skin and Its Girl   Cypher, Sarah               Novel Sexual Id… English \n 8 Mornings In Jenin       Abulhawa, Susan             Novel Historica… English \n 9 Martyr!                 Akbar, Kaveh                Novel Fiction, … English \n10 A Woman is No Man       Rum, Etaf                   Novel Palestini… English \n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
