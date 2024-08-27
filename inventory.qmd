@@ -48,7 +48,9 @@ physical_collection <-  read_sheet(ss1,
 
 ```
 
-```{r}
+```{r book_list}
+
+#| column: screen
 
 physical_collection %>% 
   dplyr::select(title, author = author_last_name_first_name, 
