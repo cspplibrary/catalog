@@ -1,5 +1,5 @@
 ---
-title: "ABOUT THE CSPP LIBRARY"
+title: ""
 format: 
   html:
     toc: false
@@ -7,11 +7,11 @@ format:
     link-external-newwindow: true
 ---
 
-...
+![](images/cspplibrary-header.png)
+
+### About the CSPP Library
 
 <br> <br>
-
-...
 
 <br> <br>
 
@@ -19,8 +19,36 @@ format:
 
 <br>
 
-### Contact us at cspplibrary\@gmail.com
+### CSPP Library FAQs
+
+#### When is the CSPP library open?
+
+First Wednesday of the month, 6-8 PM
+
+#### When can I check out a book?
+
+During open library hours: First Wednesday of the month, 6-8 PM
+
+#### Do I need a library card to check out a book?
+
+Yes! Please ask for a library card at the [SWANA Rose Culture + Community Center](https://www.swanarosepdx.org/). Suggested donation for a card is \$5-10, but no one will be turned away for lack of funds. 
+
+#### How long can I check out a book for? 
+
+30 days. You can also renew up to two times, by emailing [cspplibrary\@gmail.com](mailto:cspplibrary@gmail.com) 
+
+#### When can I return a book?
+
+During open library hours: First Wednesday of the month, 6-8 PM OR during any **public event** at SWANA Rose, please check [SWANA Rose Calendar](https://www.swanarosepdx.org/calendar/). Books should be returned to designated wooden crate at SWANA Rose. 
+
+####  Can I put a book on hold?
+
+Nope!
+
+#### What is the reference library?
+
+The reference library are our more precious items that we do not allow to be checked out. You are welcome to look through these during library hours.\
+\
+**If you have any other questions please contact us at [cspplibrary\@gmail.com](mailto:cspplibrary@gmail.com)**
 
 <br>
-
-[![](images/CSPPBookplatePink.png){width="506"}](https://www.instagram.com/cspplibrary/)
