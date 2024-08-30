@@ -22,6 +22,6 @@ format:
 
 <br> <br>
 
-[**SWANA Reads - a community-driven database of books for all ages by and about South West Asian/North Africans**](bit.ly/swana-reads "bit.ly/swana-reads")
+[**SWANA Reads - a community-driven database of books for all ages by and about South West Asian/North Africans**](https://litwits.notion.site/SWANA-Reads-cd8fc45a6f0f40aa96886ad870fcf669 "bit.ly/swana-reads")
 
-[![](images/swana-reads-logo.png){width="635"}](bit.ly/swana-reads)
+[![](images/swana-reads-logo.png){width="635"}](https://litwits.notion.site/SWANA-Reads-cd8fc45a6f0f40aa96886ad870fcf669)
