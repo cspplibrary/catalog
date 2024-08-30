@@ -116,7 +116,7 @@ num_books_avail_checkout <-  x %>%
 ```
 
 
-Below is a list of all the current books in the CSPP Library Inventory. You can search for key words in the upper right hand search bar or you can search within specific attributes such as book title, publication date, cover type, or whether the book is currently available for checkout. Right now there are `r num_books_avail_checkout` books available for checkout! This online inventory is updated hourly. 
+Below is a list of all the current books in the CSPP Library Inventory. You can search for key words in the upper right hand search bar or you can search within specific attributes such as book title, publication date, cover type, or whether the book is currently available for checkout. Right now there are `r num_books_avail_checkout` books available for checkout!
 
 
 
