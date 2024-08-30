@@ -15,8 +15,6 @@ format:
 
 <br> <br>
 
-...
-
 <br>
 
 ### CSPP Library FAQs
@@ -31,7 +29,7 @@ During open library hours: First Wednesday of the month, 6-8 PM
 
 #### Do I need a library card to check out a book?
 
-Yes! Please ask for a library card at the [SWANA Rose Culture + Community Center](https://www.swanarosepdx.org/). Suggested donation for a card is \$5-10, but no one will be turned away for lack of funds. 
+Yes! Please ask for a library card at the [SWANA Rose Culture + Community Center](https://www.swanarosepdx.org/ "https://www.swanarosepdx.org/"). Suggested donation for a card is \$5-10, but no one will be turned away for lack of funds. 
 
 #### How long can I check out a book for? 
 
@@ -39,7 +37,7 @@ Yes! Please ask for a library card at the [SWANA Rose Culture + Community Center
 
 #### When can I return a book?
 
-During open library hours: First Wednesday of the month, 6-8 PM OR during any **public event** at SWANA Rose, please check [SWANA Rose Calendar](https://www.swanarosepdx.org/calendar/). Books should be returned to designated wooden crate at SWANA Rose. 
+During open library hours: First Wednesday of the month, 6-8 PM OR during any **public event** at SWANA Rose, please check [SWANA Rose Culture + Community Center Calendar](https://www.swanarosepdx.org/calendar/ "https://www.swanarosepdx.org/calendar/"). Books should be returned to designated wooden crate at SWANA Rose. 
 
 ####  Can I put a book on hold?
 

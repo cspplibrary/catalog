@@ -1,0 +1,27 @@
+---
+title: "Resources"
+format:
+  html:
+    toc: false
+    link-external-newwindow: true
+---
+
+<br>
+
+[**SWANA Rose Culture + Community Center Calendar**](https://www.swanarosepdx.org/calendar/ "https://www.swanarosepdx.org/calendar/")
+
+```{=html}
+
+<iframe width="1000" height="640" src="https://www.swanarosepdx.org/calendar/" title="SWANA Rose Culture + Community Center Calendar"></iframe>
+```
+<br> <br>
+
+[**CREATORS FOR GAZA - SWANA-led global collective of creators amplifying the fundraising campaigns of our loved ones fleeing the onslaught in Gaza.**](https://creatorsforgaza.github.io/the-list/ "https://creatorsforgaza.github.io/the-list/")
+
+[![](images/cfg-logo.jpeg){width="695"}](https://creatorsforgaza.github.io/the-list/)
+
+<br> <br>
+
+[**SWANA Reads - a community-driven database of books for all ages by and about South West Asian/North Africans**](bit.ly/swana-reads "bit.ly/swana-reads")
+
+[![](images/swana-reads-logo.png){width="635"}](bit.ly/swana-reads)

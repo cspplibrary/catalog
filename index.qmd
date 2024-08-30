@@ -12,4 +12,4 @@ format:
     link-external-newwindow: true
 ---
 
-[![](images/CSPPBookplate.png){fig-align="center" width="539"}](https://www.instagram.com/cspplibrary/)
+[![](images/CSPPLibraryHandbill.jpg){fig-align="center" width="634"}](https://www.instagram.com/cspplibrary/)

@@ -13,7 +13,6 @@ format:
 ---
 
 
-
 ```{r}
 
 library(tidyverse)
@@ -51,8 +50,8 @@ physical_collection <-  read_sheet(ss1,
 
 x <- physical_collection %>% 
   dplyr::mutate(available_for_checkout = case_when(
-    available_for_checkout == TRUE ~ "Yes",
-    available_for_checkout == FALSE ~ "No",
+    available_for_checkout == TRUE & literally_checked_out == FALSE ~ "Yes",
+    available_for_checkout == FALSE | literally_checked_out == TRUE ~ "No",
     TRUE ~ "No"
   ))
   
@@ -61,6 +60,63 @@ x <- physical_collection %>%
 
 ```
 
+```{r}
+
+
+# book_list <-  physical_collection  %>%
+#   # means there is a check in the second column
+#   # dplyr::filter(here == TRUE) %>% 
+#   # convert to char columns from lists
+#   dplyr::mutate(
+#     # date_acquired = as.character(date_acquired),
+#     publisher = as.character(publisher)
+#     # publication_date = as.character(publication_date)
+#   ) %>%
+#   # remove missing rows
+#   dplyr::filter(!(is.na(title) & is.na(author_last_name_first_name))) 
+# 
+
+
+# book_list %>% View()
+#   dplyr::filter()
+    
+# most_popular_author <- book_list %>% 
+#   dplyr::filter(author_last_name_first_name != "various",
+#                 !is.na(author_last_name_first_name)) %>%   
+#   count(author_last_name_first_name, sort = T) %>% 
+#   dplyr::slice_head(n = 1) %>% 
+#   dplyr::pull(author_last_name_first_name)
+# 
+# num_books_by_most_pop_auth <-  book_list %>% 
+#   dplyr::filter(author_last_name_first_name != "various",
+#                 !is.na(author_last_name_first_name)) %>% 
+#   count(author_last_name_first_name, sort = T) %>% 
+#   dplyr::slice_head(n = 1) %>% 
+#   dplyr::pull(n)
+# 
+# num_books <- book_list %>% 
+#   dplyr::distinct(title) %>% 
+#   nrow()
+
+# book_list %>% 
+#   dplyr::filter(title == "Palestine") %>%  View()
+
+all_books <-  x %>% 
+  distinct(title) %>% 
+  arrange(title) %>% 
+  dplyr::pull(title)
+
+num_books <- nrow(x)
+
+num_books_avail_checkout <-  x %>% 
+  dplyr::filter(available_for_checkout == "Yes") %>% 
+  nrow()
+
+
+```
+
+
+Below is a list of all the current books in the CSPP Library Inventory. You can search for key words in the upper right hand search bar or you can search within specific attributes such as book title, publication date, cover type, or whether the book is currently available for checkout. Right now there are `r num_books_avail_checkout` books available for checkout! This online inventory is updated hourly. 
 
 
 
@@ -91,7 +147,7 @@ x  %>%
   ) %>% 
   gt::cols_align(
     align = "left",
-    columns = publication_date
+    columns = c(publication_date, Publisher)
   ) %>%   
   gt::tab_style(style = cell_text(weight = "bold"),
             locations = cells_column_labels(
@@ -143,7 +199,7 @@ x  %>%
 # x %>% 
 #   count(format, sort = T) 
 # 
-# x %>% 
+# x %>%
 #   dplyr::count(available_for_checkout)
 
 ```
@@ -152,48 +208,6 @@ x  %>%
 ```{r}
 
 
-book_list <-  physical_collection  %>%
-  # means there is a check in the second column
-  # dplyr::filter(here == TRUE) %>% 
-  # convert to char columns from lists
-  dplyr::mutate(
-    # date_acquired = as.character(date_acquired),
-    publisher = as.character(publisher)
-    # publication_date = as.character(publication_date)
-  ) %>%
-  # remove missing rows
-  dplyr::filter(!(is.na(title) & is.na(author_last_name_first_name))) 
-
-
-
-# book_list %>% View()
-#   dplyr::filter()
-    
-most_popular_author <- book_list %>% 
-  dplyr::filter(author_last_name_first_name != "various",
-                !is.na(author_last_name_first_name)) %>%   
-  count(author_last_name_first_name, sort = T) %>% 
-  dplyr::slice_head(n = 1) %>% 
-  dplyr::pull(author_last_name_first_name)
-
-num_books_by_most_pop_auth <-  book_list %>% 
-  dplyr::filter(author_last_name_first_name != "various",
-                !is.na(author_last_name_first_name)) %>% 
-  count(author_last_name_first_name, sort = T) %>% 
-  dplyr::slice_head(n = 1) %>% 
-  dplyr::pull(n)
-
-num_books <- book_list %>% 
-  dplyr::distinct(title) %>% 
-  nrow()
-
-# book_list %>% 
-#   dplyr::filter(title == "Palestine") %>%  View()
-
-all_books <-  book_list %>% 
-  distinct(title) %>% 
-  arrange(title) %>% 
-  dplyr::pull(title)
 
 ```
 
