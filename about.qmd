@@ -7,13 +7,21 @@ format:
     link-external-newwindow: true
 ---
 
-![](images/cspplibrary-header.png)
+![](images/cspplibrary-header.png){width="646"}
+
+<br>
 
 ### About the CSPP Library
 
-<br> <br>
+Hello! We’re The CSPP Library, a SWANA-focused community library in Portland, Oregon. We’re the first independent, community-run SWANA library on the west coast and possibly the whole so-called US!
 
-<br> <br>
+We’re housed within The [SWANA Rose Culture + Community Center](https://www.swanarosepdx.org/ "https://www.swanarosepdx.org/"), and part of the Center for Study and Preservation of Palestine, started by Ramzy Farouki, a local Palestinian organizer and educator.
+
+We’re a resource not to just our own community, but for anyone seeking more education about our homelands and diasporas in this critical time.
+
+Our collection consists of contemporary and classical SWANA region literature, including fiction, non-fiction, poetry, children’s books, magazines, and zines. We also have a reference collection that houses rare books available for study during our library hours.
+
+We’re entirely volunteer-run by a multi-ethnic group of organizers and book lovers. Join us! Check out a book, spread the word, volunteer and build radical community!
 
 <br>
 
@@ -39,7 +47,7 @@ Yes! Please ask for a library card at the [SWANA Rose Culture + Community Center
 
 During open library hours: First Wednesday of the month, 6-8 PM OR during any **public event** at SWANA Rose, please check [SWANA Rose Culture + Community Center Calendar](https://www.swanarosepdx.org/calendar/ "https://www.swanarosepdx.org/calendar/"). Books should be returned to designated wooden crate at SWANA Rose. 
 
-####  Can I put a book on hold?
+#### Can I put a book on hold?
 
 Nope!
 
@@ -48,5 +56,3 @@ Nope!
 The reference library are our more precious items that we do not allow to be checked out. You are welcome to look through these during library hours.\
 \
 **If you have any other questions please contact us at [cspplibrary\@gmail.com](mailto:cspplibrary@gmail.com)**
-
-<br>

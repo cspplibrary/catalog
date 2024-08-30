@@ -8,20 +8,22 @@ format:
 
 <br>
 
-[**SWANA Rose Culture + Community Center Calendar**](https://www.swanarosepdx.org/calendar/ "https://www.swanarosepdx.org/calendar/")
+[**SWANA Rose Culture + Community Center -** a gathering space for those with lineages tied to Southwest Asia and North Africa, focused on reclamation, remembering and resistance, through education, arts and intersectional solidarity.](https://www.swanarosepdx.org/ "https://www.swanarosepdx.org/")
+
+[![](images/swana-rose-logo.png){width="611"}](https://www.swanarosepdx.org/)
 
 ```{=html}
 
-<iframe width="1000" height="640" src="https://www.swanarosepdx.org/calendar/" title="SWANA Rose Culture + Community Center Calendar"></iframe>
+<!-- <iframe width="1000" height="640" style="font-size: clamp(1.5rem, 3.5vw, 2.4rem) src="https://www.swanarosepdx.org/calendar/" title="SWANA Rose Culture + Community Center Calendar"></iframe> -->
 ```
 <br> <br>
 
-[**CREATORS FOR GAZA - SWANA-led global collective of creators amplifying the fundraising campaigns of our loved ones fleeing the onslaught in Gaza.**](https://creatorsforgaza.github.io/the-list/ "https://creatorsforgaza.github.io/the-list/")
+[**CREATORS FOR GAZA** - SWANA-led global collective of creators amplifying the fundraising campaigns of our loved ones fleeing the onslaught in Gaza.](https://creatorsforgaza.github.io/the-list/ "https://creatorsforgaza.github.io/the-list/")
 
 [![](images/cfg-logo.jpeg){width="695"}](https://creatorsforgaza.github.io/the-list/)
 
 <br> <br>
 
-[**SWANA Reads - a community-driven database of books for all ages by and about South West Asian/North Africans**](https://litwits.notion.site/SWANA-Reads-cd8fc45a6f0f40aa96886ad870fcf669 "bit.ly/swana-reads")
+[**SWANA Reads** - a community-driven database of books for all ages by and about South West Asian/North Africans](https://litwits.notion.site/SWANA-Reads-cd8fc45a6f0f40aa96886ad870fcf669 "bit.ly/swana-reads")
 
 [![](images/swana-reads-logo.png){width="635"}](https://litwits.notion.site/SWANA-Reads-cd8fc45a6f0f40aa96886ad870fcf669)
