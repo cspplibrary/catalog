@@ -6,4 +6,4 @@ title: "Page Not Found"
 
 **Sorry, the page you requested cannot be found.**
 
-[Click here to return to the CSPP Library homepage](https://cspplibrary.github.io/catalog/)
+[Click here to return to the CSPP Library website](https://cspplibrary.github.io/catalog/)
