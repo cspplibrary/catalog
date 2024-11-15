@@ -15,8 +15,8 @@ website:
         text: About
       - href: inventory.qmd
         text: Books at the CSPP  
-      - href: book-donations.qmd
-        text: Books to Donate      
+      # - href: book-donations.qmd
+      #   text: Books to Donate      
       - href: resources.qmd
         text: Links        
         
