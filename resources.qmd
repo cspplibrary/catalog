@@ -14,13 +14,19 @@ format:
 
 ```{=html}
 
-<!-- <iframe width="1000" height="640" style="font-size: clamp(1.5rem, 3.5vw, 2.4rem) src="https://www.swanarosepdx.org/calendar/" title="SWANA Rose Culture + Community Center Calendar"></iframe> -->
+<!--<iframe width="1000" height="640" style="font-size: clamp(1.5rem, 3.5vw, 2.4rem) src="https://www.swanarosepdx.org/calendar/" title="SWANA Rose Culture + Community Center Calendar"></iframe> -->
 ```
 <br> <br>
 
 [**CREATORS FOR GAZA** - SWANA-led global collective of creators amplifying the fundraising campaigns of our loved ones fleeing the onslaught in Gaza.](https://creatorsforgaza.github.io/the-list/ "https://creatorsforgaza.github.io/the-list/")
 
 [![](images/cfg-logo.jpeg){width="695"}](https://creatorsforgaza.github.io/the-list/)
+
+<br> <br>
+
+[**Link to donate books to the CSPP Library**](https://bookshop.org/wishlists/4246a0749ea15a34ee077ac60a6aca4039cbd63d "https://bookshop.org/wishlists")
+
+[![](images/cspp-book-donations.png){width="632"}](https://bookshop.org/wishlists/4246a0749ea15a34ee077ac60a6aca4039cbd63d)
 
 <br> <br>
 
