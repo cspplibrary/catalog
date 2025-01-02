@@ -7,10 +7,6 @@ format:
     link-external-newwindow: true
 ---
 
-![](images/cspplibrary-header.png){width="646"}
-
-<br>
-
 ### About the CSPP Library
 
 Hello! We’re The CSPP Library, a SWANA-focused community library in Portland, Oregon. We’re the first independent, community-run SWANA library on the west coast and possibly the whole so-called US!
@@ -56,3 +52,7 @@ Nope!
 The reference library are our more precious items that we do not allow to be checked out. You are welcome to look through these during library hours.\
 \
 **If you have any other questions please contact us at [cspplibrary\@gmail.com](mailto:cspplibrary@gmail.com)**
+
+<br>
+
+[![](images/cspplibrary-header.png){fig-align="center" width="634"}](https://www.instagram.com/cspplibrary/)

@@ -13,7 +13,7 @@ format:
 ---
 
 
-```{r}
+```{r libraries}
 
 library(tidyverse)
 library(googledrive)
@@ -27,14 +27,14 @@ library(gtExtras)
 ```
 
 
-```{r}
+```{r connect}
 
-# drive_auth(path = ".secret/cspp-client-secret.json")
-# gs4_auth(path = ".secret/cspp-client-secret.json")
+drive_auth(path = ".secret/cspp-client-secret.json")
+gs4_auth(path = ".secret/cspp-client-secret.json")
 
-drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
-
-gs4_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
+# drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
+# 
+# gs4_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
 
 ss1 <- drive_get(id = Sys.getenv("GOOGLE_SHEET_ID") 
 )
@@ -47,8 +47,12 @@ physical_collection <-  read_sheet(ss1,
 
 
 # 
-
-x <- physical_collection %>% 
+# 
+# physical_collection %>% 
+#   # count(numbered) %>% 
+#   dplyr::filter(numbered == "?") %>%  View()
+# 
+x <- physical_collection %>%
   dplyr::mutate(available_for_checkout = case_when(
     available_for_checkout == TRUE & literally_checked_out == FALSE ~ "Yes",
     available_for_checkout == FALSE | literally_checked_out == TRUE ~ "No",
@@ -60,7 +64,7 @@ x <- physical_collection %>%
 
 ```
 
-```{r}
+```{r num_books}
 
 
 # book_list <-  physical_collection  %>%
@@ -137,7 +141,7 @@ x  %>%
     use_sorting = TRUE,
     use_highlight = TRUE,
     use_compact_mode = TRUE,
-    page_size_default = 20
+    page_size_default = 10
   ) %>% 
   gt::cols_label(
     sub_genres = "Sub genre",
@@ -190,24 +194,41 @@ x  %>%
   )  
 ```
 
+<br>
 
-```{r}
+[![](images/cspplibrary-header.png){fig-align="center" width="634"}](https://www.instagram.com/cspplibrary/)
 
-# x %>% 
-#   count(author_last_name_first_name) %>%  View()
+
+```{r gmailr}
+
+# library(gmailr)
 # 
-# x %>% 
-#   count(format, sort = T) 
 # 
-# x %>%
-#   dplyr::count(available_for_checkout)
-
-```
-
-
-```{r}
-
-
+# 
+# # plan
+# # Since no one will ever check out a book at midnight, it's okay to write a script that pulls all the checkouts in the last 24 hours and auto sends an email
+# 
+# dev_check_out_form <-  read_sheet(ss1,
+#                                    sheet = "Dev checkout form",
+#                                    skip = 1) %>% 
+#     janitor::clean_names() %>% 
+#   dplyr::filter(!is.na(title))
+# 
+# 
+# email <-
+#         gm_mime() |>
+#         gm_to(input$email_checkout) |>
+#         gm_from("cspplibrary@gmail.com") |>
+#         gm_subject("CSPP Library book checkout confirmation") |>
+#         gm_text_body(paste0("Hello ", input$name_checkout, "!\nYou checked out the book ",
+#                             input$pick_title_book,
+#                             " on ", Sys.Date(), ". Please make sure to return the book by ",
+#                             Sys.Date() + 30, "\nThank you!\nTHE CENTER FOR STUDY & PRESERVATION
+# OF PALESTINE (CSPP)")
+#                      )
+# 
+#       gm_send_message(email)
+# 
 
 ```
 

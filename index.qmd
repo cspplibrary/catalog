@@ -12,10 +12,7 @@ format:
     link-external-newwindow: true
 ---
 
-[![](images/cspplibrary-header.png){fig-align="center" width="634"}](https://www.instagram.com/cspplibrary/)
-
-
-<br>
+[![](images/Palestinian-poetry-flyer.PNG){fig-align="center" width="634"}](https://www.instagram.com/p/DEMARo-JawR/)
 
 ::: {.card expandable="false"}
 ::: {style="background-color: #ee4a75; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;"}
@@ -39,4 +36,6 @@ format:
 :::
 :::
 
-<br> <br>
+<br>
+
+[![](images/cspplibrary-header.png){fig-align="center" width="634"}](https://www.instagram.com/cspplibrary/)
