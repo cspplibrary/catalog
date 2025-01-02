@@ -29,12 +29,12 @@ library(gtExtras)
 
 ```{r connect}
 
-drive_auth(path = ".secret/cspp-client-secret.json")
-gs4_auth(path = ".secret/cspp-client-secret.json")
+# drive_auth(path = ".secret/cspp-client-secret.json")
+# gs4_auth(path = ".secret/cspp-client-secret.json")
 
-# drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
-# 
-# gs4_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
+drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
+
+gs4_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
 
 ss1 <- drive_get(id = Sys.getenv("GOOGLE_SHEET_ID") 
 )
