@@ -21,7 +21,6 @@ library(googlesheets4)
 library(bslib)
 library(bsicons)
 library(gt)
-
 library(gtExtras)
 
 ```
