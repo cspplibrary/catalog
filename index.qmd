@@ -12,7 +12,7 @@ format:
     link-external-newwindow: true
 ---
 
-[![](images/Palestinian-poetry-flyer.PNG){fig-align="center" width="634"}](https://www.instagram.com/p/DEMARo-JawR/)
+[![](images/swana-storytime.jpeg){fig-align="center" width="634"}](https://www.instagram.com/p/DEvRLA3zyVs/)
 
 ::: {.card expandable="false"}
 ::: {style="background-color: #ee4a75; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;"}
