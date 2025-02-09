@@ -53,8 +53,8 @@ physical_collection <-  read_sheet(ss1,
 # 
 x <- physical_collection %>%
   dplyr::mutate(available_for_checkout = case_when(
-    available_for_checkout == TRUE & literally_checked_out == FALSE ~ "Yes",
-    available_for_checkout == FALSE | literally_checked_out == TRUE ~ "No",
+    available_for_checkout_for_public == TRUE & checked_out == FALSE ~ "Yes",
+    available_for_checkout_for_public == FALSE | checked_out == TRUE ~ "No",
     TRUE ~ "No"
   ))
   
