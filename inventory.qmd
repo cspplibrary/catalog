@@ -56,8 +56,23 @@ x <- physical_collection %>%
     available_for_checkout_for_public == TRUE & checked_out == FALSE ~ "Yes",
     available_for_checkout_for_public == FALSE | checked_out == TRUE ~ "No",
     TRUE ~ "No"
-  ))
-  
+  )) %>% 
+  dplyr::filter(!is.na(book_number)) %>% 
+  dplyr::filter(!if_all(author_last_name_first_name:language, ~ is.na(.))) %>% 
+  dplyr::filter(numbered != "?" | is.na(numbered))
+
+
+# x  %>% 
+#   dplyr::filter(numbered == "?") %>%  view()
+#   dplyr::filter(is.na(numbered)) %>%  View()
+#   count(numbered) 
+#   dplyr::mutate(title = as.character(title)) %>%  View()
+#   dplyr::count(title, sort = T)
+#   dplyr::filter(is.na(book_number)) %>%  View()
+#   count(book_number, sort = T)
+#   # dplyr::count(checked_out)
+#   dplyr::filter(is.na(checked_out))
+
 # physical_collection %>% 
 #   dplyr::count(available_for_checkout)
 
