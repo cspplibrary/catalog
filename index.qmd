@@ -12,7 +12,7 @@ format:
     link-external-newwindow: true
 ---
 
-![](images/CSPPLibraryHours.png){fig-align="center" width="634"}
+![](images/swana-storytime-nowruz.png){fig-align="center" width="634"}
 
 ::: {.card expandable="false"}
 ::: {style="background-color: #ee4a75; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;"}
