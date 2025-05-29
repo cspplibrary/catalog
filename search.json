@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "inventory.html",
-    "href": "inventory.html",
-    "title": "CSPP Library Inventory",
-    "section": "",
-    "text": "Below is a list of all the current books in the CSPP Library Inventory. You can search for key words in the upper right hand search bar or you can search within specific attributes such as book title, publication date, cover type, or whether the book is currently available for checkout. Right now there are 373 books available for checkout!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "book-donations.html",
     "href": "book-donations.html",
     "title": "CSPP Library Book Donation Website",
@@ -33,5 +26,12 @@
     "title": "CSPP LIBRARY",
     "section": "",
     "text": "ABOUT\n\n\n\n\n\nCATALOG\n\n\n\n\n\nDONATE\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "inventory.html",
+    "href": "inventory.html",
+    "title": "CSPP Library Inventory",
+    "section": "",
+    "text": "Below is a list of all the current books in the CSPP Library Inventory. You can search for key words in the upper right hand search bar or you can search within specific attributes such as book title, publication date, cover type, or whether the book is currently available for checkout. Right now there are 373 books available for checkout!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]
