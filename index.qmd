@@ -28,7 +28,7 @@ format:
 :::
 :::
 
-<br>
+<br> 
 
 ::: {.card expandable="false"}
 ::: {style="background-color: #ee4a75; color: black; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;"}
