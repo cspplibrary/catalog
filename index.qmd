@@ -12,7 +12,7 @@ format:
     link-external-newwindow: true
 ---
 
-[![](images/YaffaCSPPflier1.png){fig-align="center" width="634"}](https://givebutter.com/wvkbhy)
+[![](images/CSPPLibraryHours.png){fig-align="center" width="634"}](https://givebutter.com/wvkbhy)
 
 ::: {.card expandable="false"}
 ::: {style="background-color: #ee4a75; text-align: center; display: flex; align-items: center; justify-content: center; height: 100%;"}
