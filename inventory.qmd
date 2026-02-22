@@ -144,7 +144,7 @@ Below is a list of all the current books in the CSPP Library Inventory. You can 
 
 x  %>% 
   dplyr::select(available_for_checkout, Title = title, Author = author_last_name_first_name, 
-                Genre = genre, Keywords, 
+                Genre = genre, keywords, 
                 Language = language, Publisher = publisher,
                 publication_date, cover_type, 
                 Format = format) %>% 
@@ -158,7 +158,7 @@ x  %>%
     page_size_default = 10
   ) %>% 
   gt::cols_label(
-    Keywords = "Keywords",
+    keywords = "Keywords",
     publication_date = "Publication date",
     cover_type = "Cover Type",
     available_for_checkout = "Available for Checkout"
