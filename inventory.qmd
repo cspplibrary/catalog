@@ -12,7 +12,6 @@ format:
     link-external-newwindow: true
 ---
 
-
 ```{r libraries}
 
 library(tidyverse)
@@ -24,7 +23,6 @@ library(gt)
 library(gtExtras)
 
 ```
-
 
 ```{r connect}
 
@@ -133,10 +131,7 @@ num_books_avail_checkout <-  x %>%
 
 ```
 
-
 Below is a list of all the current books in the CSPP Library Inventory. You can search for key words in the upper right hand search bar or you can search within specific attributes such as book title, publication date, cover type, or whether the book is currently available for checkout. Right now there are **`r num_books_avail_checkout` books** available for checkout!
-
-
 
 ```{r book_list}
 
@@ -212,7 +207,6 @@ x  %>%
 
 [![](images/cspplibrary-header.png){fig-align="center" width="634"}](https://www.instagram.com/cspplibrary/)
 
-
 ```{r gmailr}
 
 # library(gmailr)
@@ -245,4 +239,3 @@ x  %>%
 # 
 
 ```
-
