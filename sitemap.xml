@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cspplibrary.github.io/catalog/about.html</loc>
-    <lastmod>2026-03-26T07:53:13.520Z</lastmod>
-  </url>
-  <url>
     <loc>https://cspplibrary.github.io/catalog/book-donations.html</loc>
-    <lastmod>2026-03-26T07:53:13.520Z</lastmod>
+    <lastmod>2026-03-27T07:51:56.082Z</lastmod>
   </url>
   <url>
-    <loc>https://cspplibrary.github.io/catalog/index.html</loc>
-    <lastmod>2026-03-26T07:53:13.550Z</lastmod>
+    <loc>https://cspplibrary.github.io/catalog/about.html</loc>
+    <lastmod>2026-03-27T07:51:56.082Z</lastmod>
   </url>
   <url>
     <loc>https://cspplibrary.github.io/catalog/inventory.html</loc>
-    <lastmod>2026-03-26T07:53:13.550Z</lastmod>
+    <lastmod>2026-03-27T07:51:56.111Z</lastmod>
   </url>
   <url>
     <loc>https://cspplibrary.github.io/catalog/resources.html</loc>
-    <lastmod>2026-03-26T07:53:13.553Z</lastmod>
+    <lastmod>2026-03-27T07:51:56.113Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cspplibrary.github.io/catalog/index.html</loc>
+    <lastmod>2026-03-27T07:51:56.111Z</lastmod>
   </url>
 </urlset>
